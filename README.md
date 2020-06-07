@@ -94,7 +94,7 @@ Available on:
 Open the app in your smartphone and scan the QRcode that is located on the bottom left of the webpage.
 
 
-## Tecnologias
+## Technologies
 
 * [Node.js](https://nodejs.org/) - Used for backend(webservice Rest) of the project
 * [express](https://expressjs.com/) - Backend framework
@@ -108,7 +108,7 @@ Open the app in your smartphone and scan the QRcode that is located on the botto
 Check for the whole technology list out that contains in the `package.json`, and in the root in every part of this project.
 
 
-## Licença
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
