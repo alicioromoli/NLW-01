@@ -2,29 +2,29 @@
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://user-images.githubusercontent.com/39415174/83923322-5f890f80-a758-11ea-88fa-9df8c50630b9.png" width="160px" />
 </p>
 
-# Projeto Ecoleta
+# Ecoleta Project
 ![capa](https://user-images.githubusercontent.com/39415174/83946739-0fa65900-a7e9-11ea-9433-219ec85b1ed1.jpg)
-Projeto desenvolvido durante a primeira [NextLevelWeek](https://nextlevelweek.com/) da [Rocketseat](https://rocketseat.com.br) para aplicar os conceitos de `typescript`, `Node.js`, `ReactJS` e `React Native`.
+The project has been built within the first  [NextLevelWeek](https://nextlevelweek.com/) from [Rocketseat](https://rocketseat.com.br) to apply the concepts `typescript`, `Node.js`, `ReactJS` e `React Native`.
 
-Trata-se de uma aplicação completa (backend, frontend e mobile) para atender a demanda de logistica da coleta de resíduos. Em outras palavras , em homenagem à semana internacional do meio ambiente que coincidiu com o período da realização da Next Level Week 1.0.
+The whole application was developed using backend, frontend and mobile for fill the logistic demand of disposed waste. The week was to celebrate the international day of Environmental issues. Because of this the Next Level Week 1.0 decided to pay a tribute for that.
   
-  [Começando](#começando)&nbsp;&nbsp;|&nbsp;&nbsp;
-  [Instalação](#instalação)&nbsp;&nbsp;|&nbsp;&nbsp;
-  [Execução](#execução)&nbsp;&nbsp;|&nbsp;&nbsp;
-  [Tecnologias](#tecnologias)&nbsp;&nbsp;|&nbsp;&nbsp;
-  [Licença](#licença)  
+  [Starting](#começando)&nbsp;&nbsp;|&nbsp;&nbsp;
+  [Installation](#instalação)&nbsp;&nbsp;|&nbsp;&nbsp;
+  [Execution](#execução)&nbsp;&nbsp;|&nbsp;&nbsp;
+  [Technologies](#tecnologias)&nbsp;&nbsp;|&nbsp;&nbsp;
+  [License](#licença)  
 
-## Começando
-As instruções a seguir são para fornecer uma cópia deste projeto que poderá ser executada na sua máquina local para fins de desenvolvimento e teste.
+## Starting
+The following instructions are to provide a copy of this project and will execute em your local machine for developments and tests means.
 
-### Pré Requisitos
+### Prerequisites
 
-* É necessário que você tenha o `Node.js` instalado em sua máquina. 
-* Para a aplicação Mobile é necessário instalar o pacote `expo` em sua máquia
+* You must have the Node.js Installed in your machine. 
+* For the application Mobile, you must have the `expo` package in your machine.
 
-## Instalação
+## Installation
 
-Clonando este repositório em sua máquina local e acessaando a pasta do projeto:
+To clone this repository in your machine and accessing the folder of the project:
 
 ```bash
 git clone https://github.com/doli82/nlw-01.git
@@ -32,7 +32,7 @@ cd nlw-01
 ```
 
 ### Backend
-Instalando as dependências do backend da aplicação:
+Installing the dependencies of the backend application:
 
 ```bash
 cd server
@@ -41,7 +41,7 @@ npm install
 
 ### Frontend
 
-Instalando as dependências do frontend da aplicação:
+Installing the dependencies of the frontend application:
 
 ```bash
 cd ../web
@@ -50,67 +50,67 @@ npm install
 
 ### Mobile
 
-Instalando as dependências da aplicação mobile:
+Installing the dependencies of the mobile application:
 
 ```bash
 cd ../mobile
 npm install
 ```
 
-## Execução
-Toda a aplicação pode ser inicializada em ambiente de desenvolvimento com facilidade, seguindo as instruções abaixo:
+## Execution
+Every application could be initialized very easy following these steps below:
 
 ### Backend
-A primeira parte que deve ser executada no ambiente de desenvolvimento é o servidor `node.js`. 
+The first part must be executed is the `node.js`server. 
 
-Certifique-se de que está dentro da pasta `server` do projeto em seu terminal e que você já configurou as variáveis de ambiente corretamente, em seguida execute o comando abaixo para inicializá-lo:
+Make sure you are in the `server` folder of the project and had been installed all the environment variables. After that execute the following command below:
 
 ```bash
 npm run dev
 ```
 
 ### Frontend
-Este é o site `ReactJS` onde os pontos de coleta são cadastrados. É necessário que o backend já esteja operacional. 
+This is the `ReactJS` website where the collection points are registered. The backend must be already operational.
 
-Certifique-se de que está dentro da pasta `web` do projeto em seu terminal e que você já configurou as variáveis de ambiente corretamente, em seguida execute o comando abaixo para inicializá-lo:
+Make sure that you are in the web folder of the project and had been installed all the environment variables. After that execute the following command below:
 
 ```bash
 npm start
 ```
 ### Mobile
-Nesta parte você irá inicializar a aplicação mobile, escrita com `React Native` onde os pontos de coleta podem ser consultados por cidade. Esta parte funciona independente do Frontend, porém é necessário que o backend já esteja operacional. 
+In this part, you going to initialize the mobile application did with `React Native` where the collection points could be consulted per city. This part works despite from frontend however, the backend has already been in fully operational. 
 
-Certifique-se de que está dentro da pasta `mobile` do projeto em seu terminal e que você já configurou as variáveis de ambiente corretamente, em seguida execute o comando abaixo para inicializá-lo:
+Make sure that you are in the `mobile`  folder of the project and had been installed all the environment variables. After that execute the following command below:
 
 ```bash
 npm start
 ```
-Após o projeto mobile inicializar, será exibido um `QRCode` no terminal e uma aba dos eu navegador irá carregar o `Metro Bundler`. Neste momento você precisará instalar em seu dispositivo móvel, um aplicativoo chamado `Expo`.
-Ele está disponível nas APP Stores:
+After the mobile project initialized it will show the `QRCode` in the terminal and a new tab in your browser showing the `Metro Bundler`. That moment you will need to install em your smartphone an app called `Expo`.
+Available on:
 
-- [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent) na Google Play
-- [Expo Client](https://apps.apple.com/br/app/expo-client/id982107779) na Apple Store
+- [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent) Google Play
+- [Expo Client](https://apps.apple.com/br/app/expo-client/id982107779) Apple Store
 
-Abra em seu smartphone o aplicativo Expo e escaneie o código de barras exibido na inicialização do projeto.
+Open the app in your smartphone and scan the QRcode that is located on the bottom left of the webpage.
 
 
 ## Tecnologias
 
-* [Node.js](https://nodejs.org/) - Usado para construir o backend (webservice REST) do projeto
-* [express](https://expressjs.com/) - Framework Web utilizado no backend
-* [knex.js](http://knexjs.org/) - ORM usado no backend para auxiliar no versionamento do banco de dados
-* [salite3](https://www.sqlite.org/) - Banco de dados utilisado no backend para peristência dos dados
-* [React](https://reactjs.org/) - Usado para construir o frontend (website)
-* [React Native](https://reactnative.dev/) - Usado para construir a aplicação Mobile multiplataforma
-* [expo](https://expo.io/) - Usado para facilitar o desenvolvimento com `React Native`
-* [typescript](https://www.typescriptlang.org/) - Usado para melhorar a integridade do código final e auxiliar o desenvolvimento em equipe
+* [Node.js](https://nodejs.org/) - Used for backend(webservice Rest) of the project
+* [express](https://expressjs.com/) - Backend framework
+* [knex.js](http://knexjs.org/) - Javascript query builder for relational database
+* [sqlite3](https://www.sqlite.org/) - Backend database for the data
+* [React](https://reactjs.org/) - For frontend
+* [React Native](https://reactnative.dev/) - For Mobile application
+* [expo](https://expo.io/) - For ease development with `React Native`
+* [typescript](https://www.typescriptlang.org/) - For better code integrity and team development
 
-Confira a lista completa de tecnologias utilizadas no arquivo `package.json`, presente na pasta raiz de cada parte do projeto.
+Check for the whole technology list out that contains in the `package.json`, and in the root in every part of this project.
 
 
 ## Licença
 
-Este projeto foi desenvovido sob a licença MIT. Veja o [LICENSE](./LICENSE) para detalhes.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 
-Feito por Alicio Romoli.
+Created by Alicio Romoli.
