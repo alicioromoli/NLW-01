@@ -27,7 +27,7 @@ The following instructions are to provide a copy of this project and will execut
 To clone this repository in your machine and accessing the folder of the project:
 
 ```bash
-git clone https://github.com/doli82/nlw-01.git
+git clone https://github.com/alicioromoli/NLW-01.git
 cd nlw-01
 ```
 
