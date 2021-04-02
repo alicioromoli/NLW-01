@@ -28,7 +28,7 @@ To clone this repository in your machine and accessing the folder of the project
 
 ```bash
 git clone https://github.com/alicioromoli/NLW-01.git
-cd nlw-01
+cd NLW-01
 ```
 
 ### Backend
